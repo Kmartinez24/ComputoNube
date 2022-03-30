@@ -205,7 +205,7 @@
                     <label for="txtArea2">¿Cuales serian los principales beneficios de Cloud Computing en la carrera?</label>
                     <textarea class="form-control" rows="5" id="txtArea2"></textarea>
 
-                    <br><br><input type="submit" name="Enviar" value="Enviar"/>
+                    <br><br><input type="submit" name="Enviar" value="Enviar" class="btn btn-lg btn-primary"/>
                 </form>
             </div>
         </div>
