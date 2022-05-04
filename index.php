@@ -22,6 +22,7 @@
             const respuesta4 = document.querySelector('input[name="optradio4"]:checked').value;
             const respuesta5 = document.querySelector('input[name="optradio5"]:checked').value;
             const respuesta6 = document.querySelector('input[name="optradio6"]:checked').value;
+            const respuesta9 = document.querySelector('input[name="optradio7"]:checked').value;
             let getTextArea = document.getElementById("txtArea");
             const respuesta7 = getTextArea.value;
             getTextArea = document.getElementById("txtArea2");
@@ -34,7 +35,8 @@
                 "¿Cual de los siguientes proveedores de servicios de Cloud Computing prefiere? "+respuesta5 + "\n" +
                 "¿Considera que el Cloud Computing es dificil de implementar? "+respuesta6 + "\n" +
                 "¿Cual de los servicios de Cloud Computing que usted conoce, cree que puedan ofrecer o aplicar a la FIME? "+respuesta7 + "\n" +
-                "¿Cuales serian los principales beneficios de Cloud Computing en la carrera? "+respuesta8)
+                "¿Cuales serian los principales beneficios de Cloud Computing en la carrera? "+respuesta8+ "\n" +
+                "¿Cuál de los servicios de Cloud Computing utilizas frecuentemente?" + respuesta9)
         }
     </script>
 </head>
@@ -261,11 +263,40 @@
                         </label>
                     </div><br>
 
+                    <p>¿Cuál de los servicios de Cloud Computing utilizas frecuentemente?</p>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="radio14">
+                            <input type="radio" class="form-check-input" id="radio14" name="optradio7" value="Amazon Web Services (AWS)" required="true">Amazon Web Services (AWS)
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="radio15">
+                            <input type="radio" class="form-check-input" id="radio15" name="optradio7" value="IBM Cloud">IBM Cloud
+                        </label>
+                    </div><br>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="radio16">
+                            <input type="radio" class="form-check-input" id="radio16" name="optradio7" value="Oracle Cloud">Oracle Cloud
+                        </label>
+                    </div><br>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="radio17">
+                            <input type="radio" class="form-check-input" id="radio17" name="optradio7" value="Microsoft Azure">Microsoft Azure
+                        </label>
+                    </div><br>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="radio17">
+                            <input type="radio" class="form-check-input" id="radio17" name="optradio7" value="Google Cloud Platform (GCP)">Google Cloud Platform (GCP)
+                        </label>
+                    </div><br>
+
                     <label for="txtArea">¿Cual de los servicios de Cloud Computing que usted conoce, cree que puedan ofrecer o aplicar a la FIME?</label>
                     <textarea class="form-control" rows="5" id="txtArea"></textarea>
 
                     <label for="txtArea2">¿Cuales serian los principales beneficios de Cloud Computing en la carrera?</label>
                     <textarea class="form-control" rows="5" id="txtArea2" required="true"></textarea>
+
+
 
                     <br><br><input type="submit" name="Enviar" value="Enviar" class="btn btn-lg btn-primary"/>
                 </form>
