@@ -269,6 +269,12 @@
 
                     <br><br><input type="submit" name="Enviar" value="Enviar" class="btn btn-lg btn-primary"/>
                 </form>
+                <img src="imagenes/brave_OjzNTZVEcF.png" alt="Pregunta1">
+                <img src="imagenes/brave_71JrAy59eA.png" alt="">
+                <img src="imagenes/brave_HNAz6aB4QS.png" alt="">
+                <img src="imagenes/brave_04MTDN1dZr.png" alt="">
+                <img src="imagenes/brave_GgwQ2EJiuO.png" alt="">
+                <img src="imagenes/brave_TcnAu6PkrF.png" alt="">
             </div>
         </div>
 
